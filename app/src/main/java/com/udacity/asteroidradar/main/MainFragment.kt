@@ -20,6 +20,8 @@ class MainFragment : Fragment() {
 
         binding.viewModel = viewModel
 
+        // TODO: Bind adapter here
+
         setHasOptionsMenu(true)
 
         return binding.root
